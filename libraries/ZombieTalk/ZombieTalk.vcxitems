@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{d67027e9-836f-4f45-ae04-c5899a43dee5}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+    <Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- <ClInclude Include="$(MSBuildThisFileDirectory)ZombieTalk.h" /> -->
+    <ClInclude Include="$(MSBuildThisFileDirectory)ZombieEncoder.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ZombieDatagram.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ZombieMessage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ZombieEncoder.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ZombieDatagram.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ZombieMessage.cpp" />
+  </ItemGroup>
+</Project>
