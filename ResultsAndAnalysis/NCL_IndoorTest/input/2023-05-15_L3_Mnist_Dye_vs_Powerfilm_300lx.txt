@@ -1,0 +1,4 @@
+Mnist network indoor setup at NCL around 250lx (max 300lx) as opposed to 1000lx previously;
+                6 devices, 3 Powerfilm, 3 Dye-cells with caps
+                0 to 4 to 5 Powerfilm
+                2 to 1 to 3 DyeCells

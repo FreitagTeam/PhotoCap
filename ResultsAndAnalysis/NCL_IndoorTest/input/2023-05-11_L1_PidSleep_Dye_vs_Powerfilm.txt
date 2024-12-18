@@ -1,0 +1,3 @@
+Pid sleep indoor setup at NCL;
+                6 devices, 3 Powerfilm, 3 Dye-cells with caps
+                

@@ -1,0 +1,16 @@
+./output/Seconds:           259999.50  Minutes:     4333.33    Hours:       72.22     
+Number of Messages:  137       
+Max message number:  137       
+Message %:         1.00      
+Total runtime:     257162    
+Per second:        0.0005    
+Per hour:          1.9       
+Av. lx:            1038.02   
+Min. lx:           950.83    
+Max. lx:           1060.83   
+Minimum VCC:       3352      
+Maximum VCC:       3352      
+Av. sleep          198.2     
+Mnist pred.:       137       
+Mnist pred./h:     1.9       
+Device ID:         13        
